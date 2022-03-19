@@ -1,0 +1,60 @@
+body {
+    margin: 0px;            
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+#list {
+    border-right: 5px rebeccapurple solid;
+}
+
+#article {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+p {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;     
+    border-bottom: 5px rebeccapurple solid;
+    padding-top: 25px;
+    margin: 0;
+}
+
+#list ol, ul {            
+    width: 100px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.saw{
+    color: blue;
+}
+
+.active{
+    color: peru;
+}
+
+@media(max-width:700px) {
+    #grid {
+        display:block;
+    }
+
+    #list {
+        border-right: none;
+        border-bottom: 5px rebeccapurple solid;
+    }
+}

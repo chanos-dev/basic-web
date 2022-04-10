@@ -32,7 +32,6 @@ export default function Login() {
         resetContext();
     }, [])
     
-
     const login = (e) => {
         e.preventDefault();
         if (validate()) {

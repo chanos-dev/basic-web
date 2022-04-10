@@ -5,6 +5,7 @@ export const BASE_URL = 'https://192.168.0.101:5001/';
 export const ENDPOINTS = {
     participant : 'participant',
     question : 'question',
+    getAnswers : 'question/getanswers'
 }
 
 export const createAPIEndpoint = endpoint => {
